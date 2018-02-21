@@ -1,4 +1,4 @@
-FROM nginx:alpine
+FROM nginx:stable-alpine
 
 RUN apk add --no-cache openssl ca-certificates bash
 
